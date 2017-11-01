@@ -1,2 +1,2 @@
-# chris-dion.github.io
-hey there
+# Basic-Portfolio
+This is week 1 homework assignment

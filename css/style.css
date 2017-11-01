@@ -1,0 +1,17 @@
+#name_box {
+	position: fixed
+	width:10px;
+	height:20px;
+	padding: 10px;
+	background-color: #5aaeae;
+	color: white;
+}
+
+#main_links{
+	color: transparent;
+}
+
+#about_me{
+	color: #5aaeae;
+	font-size: 30px;
+}
