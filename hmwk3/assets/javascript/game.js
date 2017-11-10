@@ -49,7 +49,6 @@ for (var i = 0; i < length; i++){
 document.getElementById("guess_board").innerHTML = blank_spaces.join('');
 
 function reset_game(){
-	console.log("the game has been reseted")
 	chosen_q = questions[Math.floor(Math.random() * questions.length)];
 
 
@@ -89,8 +88,7 @@ document.onkeyup = function(event){
 	prev_guess = false;
 	current_letter = event.key;
 	current_letter = current_letter.toLowerCase();
-
-	console.log ("the current letter is: " + current_letter );
+	
 	console.log ("the current word is: " + chosen_q );
 
 	//scans previous made guess so to prevent repeats
