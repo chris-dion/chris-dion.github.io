@@ -68,7 +68,7 @@
               <button class="submit-btn">Submit</button>
             </form> -->
 
-            <form action="mailto:michael.c.dion@gmail.com.com" method="post" enctype="text/plain">
+            <form action="mailto:michael.c.dion@gmail.com.com" method="post" enctype="text/plain" id="emailform">
             	<h1 class="contact-form-header">Contact</h1>
 
             	<div class="form-group">
@@ -83,7 +83,7 @@
 
 				<div class="form-group">
 					 <label class="label-msg" for="msg">Message</label><br>
-					<input type="text" id="msg" name="comment" size="100"><br><br>
+					 <textarea id="msg" name="user_message_input" form="emailform" cols=600></textarea>
 				</div>
 
 				<input type="submit" value="Send">
