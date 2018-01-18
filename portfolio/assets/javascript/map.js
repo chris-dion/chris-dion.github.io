@@ -225,7 +225,7 @@ var database = firebase.database();
         let marker2 = new google.maps.Marker({position:{lat: restLat, lng: restLng}, map: map});
          //post new lat and long to a marker
             //div only being run
-        let contentString2 = "<div><p> Restaurant Name: "+restName+"</p><br><p> Genre: "+restCat+"</p></div>";
+        let contentString2 = "<div><p> Restaurant's Name: "+restName+"</p><br><p> Genre: "+restCat+"</p></div>";
         // console.log("BREAKDANCE");
         let setDisplay2 = new google.maps.InfoWindow({
           content: contentString2
